@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum — cubadunn</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face{
+    font-family:'Courier Prime';font-style:normal;font-weight:400;font-display:swap;
+    src:url('fonts/courier-prime-v9-latin-regular.woff2') format('woff2');
+  }
+  @font-face{
+    font-family:'Courier Prime';font-style:normal;font-weight:700;font-display:swap;
+    src:url('fonts/courier-prime-v9-latin-700.woff2') format('woff2');
+  }
+  :root{
+    --bg:#f4f4f1;--term:#fdfdfb;--ink:#17181a;--ink-dim:#70746f;
+    --accent:#e12d2d;--ok:#157f3d;--line:#e3e4df;--line-strong:#c9cbc4;
+    --mono:'Courier Prime','Courier New',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--mono);font-size:15px;line-height:1.7;padding:clamp(10px,2.5vw,36px)}
+  ::selection{background:var(--accent);color:#fff}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  .term{max-width:760px;margin:0 auto;background:var(--term);border:1px solid var(--line-strong);border-radius:8px;box-shadow:0 2px 6px rgba(23,24,26,.05),0 18px 44px rgba(23,24,26,.07);overflow:hidden}
+  .titlebar{display:flex;align-items:center;gap:14px;padding:11px 18px;border-bottom:1px solid var(--line-strong);font-size:12px;letter-spacing:.06em;color:var(--ink-dim)}
+  .titlebar .dots{display:flex;gap:7px}
+  .titlebar .dots i{width:11px;height:11px;border-radius:50%;border:1px solid var(--line-strong);background:#f5f5f0}
+  .titlebar .dots i:first-child{background:var(--accent);border-color:var(--accent)}
+  .titlebar b{color:var(--ink)}
+  main{padding:clamp(24px,5vw,48px)}
+  .prompt{font-size:13px;color:var(--ink-dim);margin-bottom:14px}
+  .prompt .user{color:var(--ok);font-weight:700}
+  .prompt .cmd{color:var(--ink);font-weight:700}
+  h1{font-size:1.6rem;font-weight:700;margin-bottom:6px}
+  .sub{font-size:12px;color:var(--accent);letter-spacing:.2em;margin-bottom:28px;text-transform:uppercase}
+  h2{font-size:1.02rem;font-weight:700;margin:26px 0 8px;padding-top:18px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  p{margin-bottom:10px;max-width:60ch}
+  a{color:var(--accent)}
+  .back{display:inline-block;margin-top:34px;font-size:13px;font-weight:700;color:var(--accent);text-decoration:none}
+  .back:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="term">
+  <div class="titlebar">
+    <span class="dots"><i></i><i></i><i></i></span>
+    <span>cat <b>impressum.txt</b></span>
+  </div>
+  <main>
+    <p class="prompt"><span class="user">mail@cubadunn.com</span>:~$ <span class="cmd">cat impressum.txt</span></p>
+    <h1>Impressum</h1>
+    <p class="sub">Angaben gemäß § 5 DDG</p>
+
+    <h2>Diensteanbieter</h2>
+    <p>
+      Cuba-Jamal Tomasz Dunn<br>
+      IT-Dienstleistungen und Einrichtung technischer Systeme sowie
+      medienpädagogische Beratung und Unterstützung (Einzelunternehmen)<br>
+      Kotterner Straße 34<br>
+      87435 Kempten (Allgäu)<br>
+      Deutschland
+    </p>
+
+    <h2>Angebotene Leistungen</h2>
+    <p>
+      Einrichtung und Konfiguration von IT-Systemen, medienpädagogische
+      Beratung, Schulung und Unterstützung, Entwicklung und Implementierung
+      von Software und KI-Anwendungen.
+    </p>
+
+    <h2>Kontakt</h2>
+    <p>
+      Telefon: <a href="tel:+4915126561102">+49 151 26561102</a><br>
+      E-Mail: <a href="mailto:mail@cubadunn.com">mail@cubadunn.com</a>
+    </p>
+
+    <h2>Umsatzsteuer</h2>
+    <p>
+      Steuernummer: 127/212/81106<br>
+      Als Kleinunternehmer im Sinne von § 19 Abs. 1 UStG wird keine Umsatzsteuer
+      berechnet und ausgewiesen. Eine Umsatzsteuer-Identifikationsnummer nach
+      § 27a UStG ist nicht vorhanden.
+    </p>
+
+    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+    <p>Cuba-Jamal Tomasz Dunn, Anschrift wie oben.</p>
+
+    <h2>Verbraucherstreitbeilegung</h2>
+    <p>
+      Ich bin nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren
+      vor einer Verbraucherschlichtungsstelle teilzunehmen.
+    </p>
+
+    <h2>Haftung für Links</h2>
+    <p>
+      Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte
+      ich keinen Einfluss habe. Für diese fremden Inhalte ist stets der jeweilige
+      Anbieter oder Betreiber der Seiten verantwortlich. Zum Zeitpunkt der
+      Verlinkung waren keine rechtswidrigen Inhalte erkennbar.
+    </p>
+
+    <a class="back" href="index.html">← zurück zum Portfolio</a>
+  </main>
+</div>
+</body>
+</html>
